@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face{
+	font-family: PottaOne;
+	src: url(fuentes/PottaOne-Regular.ttf)
+}
+header h1{
+	font-family: PottaOne;
+	text-align: center;
+	background-color: blue;
+	color:yellow;
+}
+
+section p{
+	box-sizing:content-box;
+	display:inline-block;
+}
+p#c1{
+	background-color:lightblue;
+	width:25%;
+}
+p#c2{
+	width:74%;
+	position:absolute;
+	line-height:250%;
+}
+mark{
+	background-color:black;
+	color:yellow;
+}
