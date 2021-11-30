@@ -1,8 +1,10 @@
 @charset "UTF-8";
 @font-face{
 	font-family: PottaOne;
-	src: url(fuentes/PottaOne-Regular.ttf)
-}
+	src: url(fuentes/PottaOne-Regular.ttf);
+	font-family: YuseiMagic;
+	src: url(fuentes/YuseiMagic-Regular.ttf)
+	}
 header h1{
 	font-family: PottaOne;
 	text-align: center;
@@ -28,11 +30,18 @@ mark{
 	color:yellow;
 }
 hr.c3{
-	width:60%;
+	width:50%;
 	box-sizing:content-box;
 	display:inline-block;
 	position:relative;
-	left:5%;
+	left:15%;
+}
+hr.c4{
+	width:50%;
+	box-sizing:content-box;
+	display:inline-block;
+	position:relative;
+	left:25%;
 }
 hr.azul{
 	height:10px;
@@ -41,6 +50,9 @@ hr.azul{
 	position:absolute;
 	left:0px;
 }
-p.coda{
+p#coda{
 	font-family: 'Coda Caption', sans-serif;
+}
+p#yusei{
+	font-family: YuseiMagic;
 }
